@@ -1,6 +1,7 @@
 /* Global Variables */
 :root {
   --color-primary: hsl(158, 36%, 37%);
+  --color-primary-400: hsl(158, 36%, 20%);
   --color-accent: hsl(30, 38%, 92%);
 
   --color-neutral-700: hsl(212, 21%, 14%);
@@ -192,4 +193,9 @@ body {
   width: 15px;
   height: 16px;
   background-image: url("images/icon-cart.svg");
+}
+
+.button:hover,
+:focus {
+  background-color: var(--color-primary-400);
 }
